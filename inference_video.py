@@ -229,8 +229,8 @@ def interpolate_video(video_path, multi):
 
 # Gradio UI
 inputs = [
-    gr.components.Video(label="Input Video"),
-    gr.components.Number(label="Multi", value=8)
+    gr.components.Video(label="元動画"),
+    gr.components.Number(label="FPSを何倍にするか", value=8)
 ]
 
 output = gr.components.Video(label="Output Video")
